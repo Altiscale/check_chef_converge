@@ -8,6 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = CheckChefConverge::VERSION
   spec.authors       = ["Travis Thompson"]
   spec.email         = ["travis@altiscale.com"]
+  spec.license       = "Apache 2.0"
 
   spec.summary       = %q{Nagios/Sensu check for chef convergence on a chef search}
   spec.description   = File.read(File.join(__dir__, 'README.md'))
