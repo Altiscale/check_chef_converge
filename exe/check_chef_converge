@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'check_chef_converge'
+require 'check_chef_converge/cli'
+require 'check_chef_converge/check'
+
+CheckChefConverge::Check.run! CheckChefConverge::CLI.parse(ARGV)
